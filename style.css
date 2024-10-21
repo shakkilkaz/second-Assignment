@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  width: 75%;
+  margin: auto;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.header-content nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: none;
+  margin-top: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(230, 83, 60);
+}
+
+/* banner-content */
+
+.banner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.banner-text {
+  margin-top: 50px;
+}
+.banner-text h1 {
+  font-size: 80px;
+}
+
+span {
+  font-family: "Great Vibes", cursive;
+}
+
+.banner-text p {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner-btn-1 {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  width: 200px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid none;
+  font-weight: 600;
+}
+.banner-btn-2 {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(5, 5, 5);
+  width: 200px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+
+/* change your habits */
+
+.habit-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.habit p {
+  margin-top: 20px;
+  text-align: center;
+  color: gray;
+}
+
+.habit-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.habit-content {
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+  /* margin-bottom: 100px; */
+  height: 300px;
+  /* margin-top: 100px; */
+}
+.habit-img img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.habit-text {
+  margin-top: 20px;
+  text-align: center;
+}
