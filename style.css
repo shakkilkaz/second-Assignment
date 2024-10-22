@@ -38,6 +38,14 @@ nav ul li a {
   color: rgb(230, 83, 60);
 }
 
+
+@media  screen and (max-width: 768px){
+
+}
+
+
+
+
 /* banner-content */
 
 .banner-content {
@@ -89,6 +97,34 @@ span {
   border: 1px solid white;
   font-weight: 600;
 }
+
+
+@media  screen and (max-width: 768px){
+
+.banner-btn{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+}
+
+.banner-text p {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+}
+
+
+
+
+
+
 
 /* change your habits */
 
@@ -170,6 +206,163 @@ padding-bottom: 30px;
   width: 400px;
   border-radius: 10px;
 }
+
+@media  screen and (max-width: 768px){
+
+  .exercise-img{
+    margin-top: 20px;
+    width: 340px;
+    border-radius: 10px;
+    margin-left: -10px;
+  }
+  
+    
+
+
+}
+
+
+
+/* this Our team section */
+
+.team{
+ 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  /* font-size: 50px; */
+  margin-bottom: 20px;
+}
+
+.team-title{
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.team-para-text{
+  color: gray;
+  margin-bottom: 20px;
+
+}
+.team-container{
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+
+.team-mate{
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+  margin-bottom: 20px; 
+  position: relative; 
+}
+
+.team-text{
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 20px;
+  color: white;
+  
+
+}
+.team-text h1{
+  font-size: 30px;
+}
+.team-text p{
+  margin-top: 10px;
+  color: rgb(201, 195, 195);
+}
+
+@media  screen and (max-width: 768px) {
+
+  .team-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+  }
+
+
+}
+
+
+
+
+
+
+/* footer section */
+
+
+
+
+
+.workout{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  display: grid;
+  gap: 20px ;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fitness-title{
+  color: rgb(230, 83, 60);
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.workout-title{
+  color: white;
+}
+
+.workout-para{
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.workout-text {
+  color: gray;
+}
+
+
+
+.Our-services li{
+  list-style: none;
+  gap: 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: gray;
+  margin: 10px ;
+}
+
+@media  screen and (max-width: 768px) {
+  .workout{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: grid;
+    gap: 20px ;
+    grid-template-columns: repeat(1, 1fr);
+    /* align-items: center; */
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
 
 
 
